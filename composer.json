@@ -1,0 +1,42 @@
+{
+  "name": "epet/eFrame",
+  "description": "Something Awesome By EpetTech@2018",
+  "keywords": [
+    "epet",
+    "framework",
+    "component-based",
+    "swoole",
+    "high-performance",
+    "easy-expand"
+  ],
+  "homepage": "http://projectdoc.epetbar.com/index.php?s=/130&page_id=2010",
+  "authors": [
+    {
+      "name": "speciallan",
+      "email": "liujingsheng@gutou.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    },
+    {
+      "packagist": false
+    }
+  ],
+  "config" :{
+    "secure-http": false
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/",
+      "vendor\\": "vendor/"
+    }
+  }
+}
